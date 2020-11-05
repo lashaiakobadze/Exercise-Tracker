@@ -1,13 +1,18 @@
 
+
 * {
   box-sizing: border-box;
+}
+
+#form1{
+  dispaly:flex;
 }
 
 body {
   font-family:sans-serif;
   margin: 25px;
   color: #222;
-  background-color: #f5f5f5;
+  background-color: #708090;
 }
 
 h1 {
@@ -24,9 +29,10 @@ p {
 }
 
 form {
+  align-items: center;
   margin-bottom: 25px;
   padding: 15px;
-  background-color: #87D37C;
+  background-color: #008080;
   display: inline-block;
   width: 100%;
   max-width: 340px;
@@ -62,3 +68,4 @@ code {
   background-color: #FFFEC4;
   padding: 2px;
 }
+
